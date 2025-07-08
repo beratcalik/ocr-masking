@@ -1,16 +1,16 @@
-# OCR Masking with Python 🖼️🔒
+# OCR Masking with Python 
 
 Bu projede, bir görsel içerisindeki yazılar OCR (Optik Karakter Tanıma) yöntemiyle tanımlanır ve her kelimenin yalnızca ilk 3 harfi açık bırakılarak geri kalanı yıldız (`*`) karakteriyle maskelenir.
 
 ---
 
-## 📌 1. Giriş (Introduction)
+##  1. Giriş (Introduction)
 
 Görsellerde yer alan metinlerin işlenmesi, birçok güvenlik ve gizlilik uygulamasında kritik öneme sahiptir. Bu proje, temel OCR teknikleri kullanılarak bir görseldeki yazıyı algılamayı ve veri gizliliği sağlamak amacıyla yalnızca kelimenin ilk üç harfini gösterip geri kalanını maskelemeyi hedefler.
 
 ---
 
-## ⚙️ 2. Yöntem (Method)
+##  2. Yöntem (Method)
 
 - **Dil:** Python 3
 - **Kütüphaneler:** `pytesseract`, `opencv-python`, `Pillow`
@@ -25,7 +25,7 @@ Görsellerde yer alan metinlerin işlenmesi, birçok güvenlik ve gizlilik uygul
 
 ---
 
-## 🧪 3. Sonuçlar (Results)
+##  3. Sonuçlar (Results)
 
 Örnek giriş görsel (`BERAT.png`) metni:  
 
@@ -37,7 +37,7 @@ Maskelenmiş:
 
 ---
 
-## 💬 4. Değerlendirme (Discussion)
+##  4. Değerlendirme (Discussion)
 
 Bu proje, temel OCR uygulamalarını basit bir metin maskeleme tekniğiyle birleştirerek güvenlik odaklı mini bir metin işleme aracı sunmaktadır. Geliştirme alanları şunlardır:
 
@@ -48,7 +48,7 @@ Bu proje, temel OCR uygulamalarını basit bir metin maskeleme tekniğiyle birle
 
 ---
 
-## 🚀 Nasıl Çalıştırılır? (Quickstart)
+##  Nasıl Çalıştırılır? (Quickstart)
 
 1. `tesseract-ocr` kur: [Windows için link](https://github.com/UB-Mannheim/tesseract/wiki)
 2. `tur.traineddata` dosyasını `tessdata/` klasörüne koy
